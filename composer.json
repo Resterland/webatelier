@@ -1,0 +1,19 @@
+{
+  "name": "resterland/webatelier",
+  "description": "Source of any Resterland TYPO3 projects",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Roland Fuhrer",
+      "email": "roland@resterland.ch",
+      "homepage": "https://resterland.ch",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/minimal": "^8.7",
+    "roave/security-advisories": "dev-master",
+    "helhum/typo3-console": "^5.1"
+  }
+}
