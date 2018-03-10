@@ -12,8 +12,9 @@
     }
   ],
   "require": {
-    "typo3/minimal": "^8.7",
     "roave/security-advisories": "dev-master",
-    "helhum/typo3-console": "^5.1"
+    "typo3/minimal": "^8.7",
+    "helhum/typo3-console": "^5.1",
+    "typo3/cms-felogin": "^8.7"
   }
 }
