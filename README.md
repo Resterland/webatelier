@@ -1,2 +1,2 @@
 # webatelier
-This repository is for me to get into working with VCS and composer based TYPO3-CMS setup.
+This repository is for me to learn how to set-up a TYPO3 based project according to good practices tips and to my own practical experience.
