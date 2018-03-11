@@ -63,7 +63,6 @@ phantomjsdriver.log
 #
 # root .htaccess file
 /.htaccess
-/composer.lock
 /index.php
 /typo3/
 /FIRST_INSTALL
