@@ -26,6 +26,20 @@
     "typo3/cms-recycler": "^8.7",
     "typo3/cms-t3editor": "^8.7",
     "typo3/cms-viewpage": "^8.7",
-    "typo3/cms-sys-note": "^8.7"
+    "typo3/cms-sys-note": "^8.7",
+    "typo3/cms-documentation": "^8.7",
+    "typo3/cms-form": "^8.7",
+    "typo3/cms-indexed-search": "^8.7",
+    "typo3/cms-sys-action": "^8.7",
+    "typo3/cms-func": "^8.7",
+    "typo3/cms-impexp": "^8.7",
+    "typo3/cms-info-pagetsconfig": "^8.7",
+    "typo3/cms-setup": "^8.7",
+    "typo3/cms-sys-action": "^8.7",
+    "typo3/cms-tstemplate": "^8.7",
+    "typo3/cms-viewpage": "^8.7",
+    "typo3/cms-wizard-crpages": "^8.7",
+    "typo3/cms-wizard-sortpages": "^8.7"
+
   }
 }
