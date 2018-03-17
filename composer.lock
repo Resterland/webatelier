@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd8c4afc0d1e8ae65a38ec5b34c46e03",
+    "content-hash": "f4a23b86900279c91f78dfb42778c0e2",
     "packages": [
         {
             "name": "cogpowered/finediff",
