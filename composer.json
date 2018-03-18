@@ -41,8 +41,7 @@
     "typo3/cms-tstemplate": "^8.7",
     "typo3/cms-wizard-crpages": "^8.7",
     "typo3/cms-wizard-sortpages": "^8.7",
-    "dmitryd/typo3-realurl": "^2.3",
+    "dmitryd/typo3-realurl": ">=2.3 <3.0.0",
     "typo3-ter/static-info-tables": ">=6.5 <7.0.0"
-
   }
 }
