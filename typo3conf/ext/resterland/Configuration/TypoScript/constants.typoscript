@@ -1,0 +1,114 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+############################
+### CUSTOM SUBCATEGORIES ###
+###########################
+# customsubcategory=100=Page Template
+# customsubcategory=120=Meta Settings
+# customsubcategory=150=Configuration
+# customsubcategory=160=Theme Layout
+# customsubcategory=166=Section Footer
+# customsubcategory=167=Section Meta
+# customsubcategory=168=Section Language
+# customsubcategory=169=Section Copyright
+# customsubcategory=180=Tracking
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:resterland/Resources/Public/Images/Logos/ResterlandLogo.svg
+        fileInverted = EXT:resterland/Resources/Public/Images/Logos/ResterlandLogo.svg
+        height = 52
+        width = 180
+        alt = Resterland WebAtelier
+        linktitle = Resterland WebAtelier
+    }
+
+    preloader {
+        enable = 1
+        logo {
+            file = EXT:resterland/Resources/Public/Images/Logos/ResterlandLogo.svg
+            height = 52
+            width = 180
+        }
+        backgroundColor = #333333
+        fadeDuration = 0.25
+    }
+    favicon {
+        file = EXT:resterland/Resources/Public/Icons/favicon.ico
+    }
+
+    theme {
+        copyright {
+            enable = 1
+            text = Running with <a href="http://www.typo3.org" target="_blank">TYPO3</a> and <a href="https://www.bootstrap-package.com" target="_blank">Bootstrap Package</a><br>Tweaked by <a href="https://resterland.ch" target="_blank">ResterLand WebAtelier</a>
+        }
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:resterland/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:resterland/Resources/Private/Partials/Page/
+        templateRootPath = EXT:resterland/Resources/Private/Templates/Page/
+    }
+}
+
+
+##############
+### CONFIG ###
+##############
+config {
+    no_cache = 0
+    removeDefaultJS = 0
+    compressJs = 0
+    compressCss = 0
+    concatenateJs = 0
+    concatenateCss = 0
+    admPanel = 1
+    prefixLocalAnchors = all
+    headerComment = build by sitepackagebuilder.com
+    sendCacheHeaders = 1
+    typolinkEnableLinksAcrossDomains = 0
+    preloadImages = 0
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:resterland/Resources/Private/Layouts/
+        partialRootPath = EXT:resterland/Resources/Private/Partials/
+        templateRootPath = EXT:resterland/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:resterland/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:resterland/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:resterland/Resources/Private/Templates/ContentElements/
+    }
+}
+
+###################
+#### FRAMEWORK ####
+###################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Bootstrap4/constants.typoscript">
+[globalVar = GP:framework = bootstrap3]
+    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Bootstrap3/constants.typoscript">
+[end]
+#######################################
+### REMOVE BOOTSTRAP LESS CONSTANTS ###
+#######################################
+#plugin.bootstrap_package.settings.less >
+#plugin.bootstrap_package.settings.overrideLessVariables >

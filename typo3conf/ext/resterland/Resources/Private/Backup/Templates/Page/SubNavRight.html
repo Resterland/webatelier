@@ -1,0 +1,28 @@
+<f:layout name="Default"/>
+<f:section name="Border">
+
+    <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '3'}" />
+
+</f:section>
+
+<f:section name="Main">
+
+	<div class="section section-default">
+		<div class="container">
+			<div class="row">
+				<main class="col-md-9 maincontent-wrap" role="main">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '0'}"/>
+				</main>
+				<div class="col-md-3 subnav-wrap">
+					<f:render partial="Navigation/SubNavigation" arguments="{_all}"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</f:section>
+<f:section name="Footer">
+
+    <f:render partial="Structure/FooterContent" arguments="{_all}" />
+
+</f:section>
