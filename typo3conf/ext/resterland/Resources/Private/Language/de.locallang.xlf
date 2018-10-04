@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-05-19T09:11:39Z"
+		  product-name="resterland">
+		<header/>
+		<body>
+
+			<trans-unit id="cookieconsent.common.header">
+                <source>Cookies used on the website!</source>
+                <target state="translated">Diese Webseite benutzt Cookies!</target>
+            </trans-unit>
+            <trans-unit id="cookieconsent.common.message">
+                <source>This website uses cookies to ensure you get the best experience on our website.</source>
+                <target state="translated">Um Ihnen eine optimale Nutzung unserer Website zu ermöglichen, werden Cookies eingesetzt.</target>
+            </trans-unit>
+            <trans-unit id="cookieconsent.common.dismiss">
+                <source>Got it!</source>
+                <target state="translated">Alles klar!</target>
+            </trans-unit>
+            <trans-unit id="cookieconsent.common.allow">
+                <source>Allow cookies</source>
+                <target state="translated">Cookies erlauben</target>
+            </trans-unit>
+            <trans-unit id="cookieconsent.common.deny">
+                <source>Decline</source>
+                <target state="translated">Ablehnen</target>
+            </trans-unit>
+            <trans-unit id="cookieconsent.common.link">
+                <source>Learn more</source>
+                <target state="translated">Mehr erfahren</target>
+            </trans-unit>
+
+		</body>
+	</file>
+</xliff>
