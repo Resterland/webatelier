@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="36d1c69f-c3fd-4970-8068-55153f06c25b" name="IndonesienEntdecken" url="https://indonesienentdecken.ch">
+        <fileTransfer host="indoadmin@indonesienentdecken.ch" port="22" rootFolder="/var/www/vhosts/indonesienentdecken.ch/httpdocs" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

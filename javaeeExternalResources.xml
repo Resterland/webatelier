@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="https://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" location="$USER_HOME$/WebDevelopment/PhpStorm/vhs-master.xsd" />
+  </component>
+</application>
