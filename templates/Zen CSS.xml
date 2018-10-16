@@ -1,7 +1,0 @@
-<templateSet group="Zen CSS">
-  <template name="FP" value="{namespace b=OliverThiele\OtBootstrap3\ViewHelpers}&#10;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&#10;&#9;  xmlns:f=&quot;http://xsd.oliver-thiele.de/ns/typo3/cms-fluid/7.6/ViewHelpers&quot;&#10;&#9;  data-namespace-typo3-fluid=&quot;true&quot;&gt;&#10;&lt;head&gt;&#10;&#9;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&#9;&lt;title&gt;Partial: &lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;f:section name=&quot;Main&quot;&gt;&#10;&#9;&#10;&lt;/f:section&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="TYPO3 FluidTemplate: Partial" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML" value="true" />
-    </context>
-  </template>
-</templateSet>

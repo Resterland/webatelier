@@ -24,7 +24,7 @@
 #
 # Ignore by common IDEs used directories/files
 nbproject
-../../../.idea
+*.idea
 *.project
 .buildpath
 .settings

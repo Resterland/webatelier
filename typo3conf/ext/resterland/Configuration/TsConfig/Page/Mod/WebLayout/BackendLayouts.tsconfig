@@ -1,4 +1,0 @@
-#
-# BACKENDLAYOUTS
-#
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:resterland/Configuration/PageTS/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
