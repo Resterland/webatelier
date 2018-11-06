@@ -1,6 +1,9 @@
 {
   "repositories": [
-    { "type": "composer", "url": "https://composer.typo3.org/" }
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org/"
+    }
   ],
   "name": "resterland/webatelier",
   "description": "Source of any Resterland TYPO3 projects",
