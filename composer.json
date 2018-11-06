@@ -18,12 +18,12 @@
     }
   ],
   "require": {
-    "php": ">=5.6",
     "roave/security-advisories": "dev-master",
     "helhum/typo3-secure-web": "^0.2.7",
     "helhum/typo3-console": "^5.6",
     "typo3/cms-scheduler": "^9.5",
-    "typo3/cms-adminpanel": "^9.5"
+    "typo3/cms-adminpanel": "^9.5",
+    "bk2k/bootstrap-package": "^10.0"
   },
   "extra": {
     "typo3/cms": {
@@ -35,5 +35,8 @@
     "platform": {
       "php": "7.2"
     }
+  },
+  "require-dev": {
+    "typo3/testing-framework": "^4.11"
   }
 }
