@@ -21,7 +21,9 @@
     "helhum/typo3-secure-web": "^0.2.7",
     "helhum/typo3-console": "^5.6",
     "typo3/cms-scheduler": "^9.5",
-    "typo3/cms-adminpanel": "^9.5"
+    "typo3/cms-adminpanel": "^9.5",
+    "bk2k/bootstrap-package": "^10.0",
+    "typo3/minimal": "^9.5"
   },
   "extra": {
     "typo3/cms": {
