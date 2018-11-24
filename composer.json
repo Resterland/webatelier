@@ -1,39 +1,39 @@
 {
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.typo3.org/"
-    }
-  ],
-  "name": "resterland/webatelier",
-  "description": "Source of any Resterland TYPO3 projects",
-  "minimum-stability": "stable",
-  "license": "GPL-2.0-or-later",
-  "authors": [
-    {
-      "name": "Roland Fuhrer",
-      "email": "roland@resterland.ch",
-      "homepage": "https://resterland.ch",
-      "role": "Developer"
-    }
-  ],
-  "require": {
-    "helhum/typo3-secure-web": "^0.2.7",
-    "helhum/typo3-console": "^5.6",
-    "typo3/cms-scheduler": "^9.5",
-    "typo3/cms-adminpanel": "^9.5",
-    "bk2k/bootstrap-package": "^10.0",
-    "typo3/minimal": "^9.5"
-  },
-  "extra": {
-    "typo3/cms": {
-      "root-dir": "private",
-      "web-dir": "public"
-    }
-  },
-  "config": {
-    "platform": {
-      "php": "7.2"
-    }
-  }
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		}
+	],
+	"name": "resterland/webatelier",
+	"description": "Source of any Resterland TYPO3 projects",
+	"minimum-stability": "stable",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Roland Fuhrer",
+			"email": "roland@resterland.ch",
+			"homepage": "https://resterland.ch",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"helhum/typo3-secure-web": "^0.2.7",
+		"helhum/typo3-console": "^5.6",
+		"typo3/cms-scheduler": "^9.5",
+		"typo3/cms-adminpanel": "^9.5",
+		"typo3/minimal": "^9.5",
+		"bk2k/bootstrap-package": "^10.0"
+	},
+	"extra": {
+		"typo3/cms": {
+			"root-dir": "private",
+			"web-dir": "public"
+		}
+	},
+	"config": {
+		"platform": {
+			"php": "7.2"
+		}
+	}
 }
