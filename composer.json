@@ -7,7 +7,6 @@
 	],
 	"name": "resterland/webatelier",
 	"description": "Source of any Resterland TYPO3 projects",
-	"minimum-stability": "stable",
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
@@ -17,6 +16,7 @@
 			"role": "Developer"
 		}
 	],
+	"type": "typo3-cms-extension",
 	"require": {
 		"helhum/typo3-secure-web": "^0.2.7",
 		"helhum/typo3-console": "^5.6",
