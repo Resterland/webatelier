@@ -3,6 +3,10 @@
 		{
 			"type": "composer",
 			"url": "https://composer.typo3.org/"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/resterland/webatelier.git"
 		}
 	],
 	"name": "resterland/webatelier",
