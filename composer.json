@@ -38,7 +38,8 @@
 		"typo3/cms-t3editor": "^9.5",
 		"typo3/cms-tstemplate": "^9.5",
 		"typo3/cms-viewpage": "^9.5",
-		"typo3/cms-scheduler": "^9.5"
+		"typo3/cms-scheduler": "^9.5",
+		"bk2k/bootstrap-package": "^10.0"
 	},
 	"extra": {
 		"typo3/cms": {
