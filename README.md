@@ -4,11 +4,7 @@ This repository is for me to learn how to set-up TYPO3 based pojects.
 
 ## Create new Project
 
-$ mkdir YourNewProjectFolder
-
-$ cd YourNewProjectFolder
-
-$ composer install resterland/webatelier
+$ composer install resterland/webatelier YourNewProjectFolder
 
 This will install TYPO3 with system extensions I usually need
 as well as followin extensions:
