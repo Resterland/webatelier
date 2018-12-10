@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "557209abdf5e8b54a808278f5de03a0c",
+    "content-hash": "c008f9b202d351dc225bed003b9901c7",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
-            "version": "10.0.3",
+            "version": "10.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "7f191087423240d9e3a7d7729c59baa0b051ed8c"
+                "reference": "f523e4a60457660581fcb0b8965f5a0db3a3f3b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/7f191087423240d9e3a7d7729c59baa0b051ed8c",
-                "reference": "7f191087423240d9e3a7d7729c59baa0b051ed8c",
+                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/f523e4a60457660581fcb0b8965f5a0db3a3f3b9",
+                "reference": "f523e4a60457660581fcb0b8965f5a0db3a3f3b9",
                 "shasum": ""
             },
             "require": {
@@ -78,7 +78,74 @@
                 "theme",
                 "web"
             ],
-            "time": "2018-10-28T18:18:16+00:00"
+            "time": "2018-12-05T20:50:11+00:00"
+        },
+        {
+            "name": "causal/image_autoresize",
+            "version": "1.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xperseguers/t3ext-image_autoresize.git",
+                "reference": "d25b609135b164b8e3efc187fc3af35e506deab9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xperseguers/t3ext-image_autoresize/zipball/d25b609135b164b8e3efc187fc3af35e506deab9",
+                "reference": "d25b609135b164b8e3efc187fc3af35e506deab9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 7.0.0, <= 7.2.99",
+                "typo3/cms-core": "^8.7 || ^9.5"
+            },
+            "replace": {
+                "image_autoresize": "self.version",
+                "typo3-ter/image-autoresize": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9.x-dev"
+                },
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Causal\\ImageAutoresize\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Xavier Perseguers",
+                    "email": "xavier@causal.ch",
+                    "homepage": "https://www.causal.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simplify the way your editors may upload their images: no complex local procedure needed, let TYPO3 automatically resize down their huge images/pictures on-the-fly during upload (or using a scheduler task for batch processing) and according to your own business rules (directory/groups). This will highly reduce the footprint on your server and speed-up response time if lots of images are rendered (e.g., in a gallery). Features an EXIF/IPTC extractor to ensure metadata may be used by the FAL indexer even if not preserved upon resizing.",
+            "homepage": "https://forge.typo3.org/projects/extension-image_autoresize",
+            "keywords": [
+                "IPTC",
+                "TYPO3 CMS",
+                "auto-resize",
+                "autoresize",
+                "batch",
+                "exif",
+                "fal",
+                "footprint",
+                "image",
+                "performance",
+                "picture",
+                "upload"
+            ],
+            "time": "2018-11-29T13:33:52+00:00"
         },
         {
             "name": "cogpowered/finediff",
@@ -1021,32 +1088,33 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.4.2",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+                "reference": "9f83dded91781a01c63574e387eaa769be769115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
-                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
+                "reference": "9f83dded91781a01c63574e387eaa769be769115",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "psr/http-message": "~1.0"
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1076,30 +1144,32 @@
             "keywords": [
                 "http",
                 "message",
+                "psr-7",
                 "request",
                 "response",
                 "stream",
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20T17:10:46+00:00"
+            "time": "2018-12-04T20:46:45+00:00"
         },
         {
             "name": "helhum/config-loader",
-            "version": "v0.11.0",
+            "version": "v0.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helhum/config-loader.git",
-                "reference": "7748b96a80725fd8801075a4b75485889ac04779"
+                "reference": "b1f726ad7a78240d86b820bbec29ca1792f31637"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helhum/config-loader/zipball/7748b96a80725fd8801075a4b75485889ac04779",
-                "reference": "7748b96a80725fd8801075a4b75485889ac04779",
+                "url": "https://api.github.com/repos/helhum/config-loader/zipball/b1f726ad7a78240d86b820bbec29ca1792f31637",
+                "reference": "b1f726ad7a78240d86b820bbec29ca1792f31637",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0 <7.3.0"
+                "php": ">=7.0.0 <7.4.0",
+                "symfony/config": "^4.0"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
@@ -1126,7 +1196,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Generic config loader with context and environment support.",
-            "time": "2018-09-02T15:46:19+00:00"
+            "time": "2018-12-09T12:14:50+00:00"
         },
         {
             "name": "helhum/typo3-composer-setup",
@@ -1287,21 +1357,21 @@
         },
         {
             "name": "helhum/typo3-console-plugin",
-            "version": "2.0.4",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-Console/typo3-console-plugin.git",
-                "reference": "4e0cb102b6471b156a942eb8ca6e607ab28c0b19"
+                "reference": "4a80b494adb97306bb19a14c72c214be79b5b079"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-Console/typo3-console-plugin/zipball/4e0cb102b6471b156a942eb8ca6e607ab28c0b19",
-                "reference": "4e0cb102b6471b156a942eb8ca6e607ab28c0b19",
+                "url": "https://api.github.com/repos/TYPO3-Console/typo3-console-plugin/zipball/4a80b494adb97306bb19a14c72c214be79b5b079",
+                "reference": "4a80b494adb97306bb19a14c72c214be79b5b079",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0",
-                "php": ">=7.0.0 <7.3",
+                "php": "^7.0",
                 "typo3/cms-composer-installers": "^1.4 || ^2.0"
             },
             "require-dev": {
@@ -1336,7 +1406,7 @@
                 "plugin",
                 "typo3 console"
             ],
-            "time": "2017-12-13T13:52:52+00:00"
+            "time": "2018-12-09T12:06:13+00:00"
         },
         {
             "name": "helhum/typo3-secure-web",
@@ -1842,6 +1912,158 @@
             "time": "2017-10-23T01:57:42+00:00"
         },
         {
+            "name": "ralouphie/getallheaders",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.0",
+                "satooshi/php-coveralls": ">=1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2016-02-11T07:05:27+00:00"
+        },
+        {
+            "name": "resterland/resterland",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Resterland/resterland.git",
+                "reference": "bac06ff60c8381f1f657d44bd18fdb3e03dbb408"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Resterland/resterland/zipball/bac06ff60c8381f1f657d44bd18fdb3e03dbb408",
+                "reference": "bac06ff60c8381f1f657d44bd18fdb3e03dbb408",
+                "shasum": ""
+            },
+            "require": {
+                "bk2k/bootstrap-package": "^10.0",
+                "typo3/minimal": "^9.5"
+            },
+            "replace": {
+                "resterland": "self.version",
+                "typo3-ter/resterland": "self.version"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "typo3/testing-framework": "^4.11"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "root-dir": "private",
+                    "web-dir": "public"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Resterland\\Resterland\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Roland Fuhrer",
+                    "email": "roland@resterland.ch",
+                    "homepage": "https://resterland.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tweaks the extension bootstrap-package of Bajamin Kott with some Resterland goodies.",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "time": "2018-12-02T14:56:36+00:00"
+        },
+        {
+            "name": "resterland/rlkickstart",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Resterland/rlkickstart.git",
+                "reference": "974137836733486814cc1899e59a6b430d8102e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Resterland/rlkickstart/zipball/974137836733486814cc1899e59a6b430d8102e8",
+                "reference": "974137836733486814cc1899e59a6b430d8102e8",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-impexp": "^9.5",
+                "typo3/minimal": "^9.5"
+            },
+            "replace": {
+                "rlkickstart": "self.version",
+                "typo3-ter/rlkickstart": "self.version"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "typo3/testing-framework": "^4.11"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "root-dir": "private",
+                    "web-dir": "public"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Resterland\\Rlkickstart\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Roland Fuhrer",
+                    "email": "roland@resterland.ch",
+                    "homepage": "https://resterland.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Setting up a basic page tree for starting new web projects, multilingual. Default language is set to German. Additional languages = en, id, fr",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "time": "2018-12-02T14:57:31+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.12",
             "source": {
@@ -1897,16 +2119,16 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "dbe98af4943a9c246e4538868e0fa55bc8b5e0f3"
+                "reference": "5c4b50d6ba4f1c8955c3454444c1e3cfddaaad41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/dbe98af4943a9c246e4538868e0fa55bc8b5e0f3",
-                "reference": "dbe98af4943a9c246e4538868e0fa55bc8b5e0f3",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/5c4b50d6ba4f1c8955c3454444c1e3cfddaaad41",
+                "reference": "5c4b50d6ba4f1c8955c3454444c1e3cfddaaad41",
                 "shasum": ""
             },
             "require": {
@@ -1970,11 +2192,74 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2018-11-26T18:33:39+00:00"
+            "time": "2018-12-06T11:00:08+00:00"
+        },
+        {
+            "name": "symfony/config",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/config.git",
+                "reference": "005d9a083d03f588677d15391a716b1ac9b887c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/config/zipball/005d9a083d03f588677d15391a716b1ac9b887c0",
+                "reference": "005d9a083d03f588677d15391a716b1ac9b887c0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/filesystem": "~3.4|~4.0",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/finder": "<3.4"
+            },
+            "require-dev": {
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/event-dispatcher": "~3.4|~4.0",
+                "symfony/finder": "~3.4|~4.0",
+                "symfony/yaml": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/yaml": "To use the yaml reference dumper"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Config\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-11-30T22:21:14+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -2043,16 +2328,16 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "3edf0ab943d1985a356721952cba36ff31bd6e5f"
+                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/3edf0ab943d1985a356721952cba36ff31bd6e5f",
-                "reference": "3edf0ab943d1985a356721952cba36ff31bd6e5f",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/1aa7ab2429c3d594dd70689604b5cf7421254cdf",
+                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf",
                 "shasum": ""
             },
             "require": {
@@ -2107,11 +2392,11 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2018-11-24T09:35:08+00:00"
+            "time": "2018-12-05T08:06:11+00:00"
         },
         {
             "name": "symfony/expression-language",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/expression-language.git",
@@ -2161,8 +2446,58 @@
             "time": "2018-11-11T19:52:12+00:00"
         },
         {
+            "name": "symfony/filesystem",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "2f4c8b999b3b7cadb2a69390b01af70886753710"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/2f4c8b999b3b7cadb2a69390b01af70886753710",
+                "reference": "2f4c8b999b3b7cadb2a69390b01af70886753710",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-11-11T19:52:12+00:00"
+        },
+        {
             "name": "symfony/finder",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -2211,16 +2546,16 @@
         },
         {
             "name": "symfony/intl",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "1730183319d8b1f74143a3ed16473b229dc94cec"
+                "reference": "748a1c54903344385f88fef75da293915b16a207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/1730183319d8b1f74143a3ed16473b229dc94cec",
-                "reference": "1730183319d8b1f74143a3ed16473b229dc94cec",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/748a1c54903344385f88fef75da293915b16a207",
+                "reference": "748a1c54903344385f88fef75da293915b16a207",
                 "shasum": ""
             },
             "require": {
@@ -2282,7 +2617,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2018-11-11T19:52:12+00:00"
+            "time": "2018-12-01T08:52:38+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2461,7 +2796,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -2510,16 +2845,16 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "97b9f457df748357eec101df5c8b1c649b543241"
+                "reference": "649460207e77da6c545326c7f53618d23ad2c866"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/97b9f457df748357eec101df5c8b1c649b543241",
-                "reference": "97b9f457df748357eec101df5c8b1c649b543241",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/649460207e77da6c545326c7f53618d23ad2c866",
+                "reference": "649460207e77da6c545326c7f53618d23ad2c866",
                 "shasum": ""
             },
             "require": {
@@ -2583,20 +2918,20 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-11-29T14:48:32+00:00"
+            "time": "2018-12-03T22:08:12+00:00"
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "08250457428e06289d21ed52397b0ae336abf54b"
+                "reference": "a39222e357362424b61dcde50e2f7b5a7d3306db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/08250457428e06289d21ed52397b0ae336abf54b",
-                "reference": "08250457428e06289d21ed52397b0ae336abf54b",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/a39222e357362424b61dcde50e2f7b5a7d3306db",
+                "reference": "a39222e357362424b61dcde50e2f7b5a7d3306db",
                 "shasum": ""
             },
             "require": {
@@ -2643,11 +2978,11 @@
                 "instantiate",
                 "serialize"
             ],
-            "time": "2018-11-14T10:32:16+00:00"
+            "time": "2018-12-03T22:40:09+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -2761,62 +3096,6 @@
                 "composer"
             ],
             "time": "2018-10-03T12:49:56+00:00"
-        },
-        {
-            "name": "typo3/cms-about",
-            "version": "v9.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3-CMS/about.git",
-                "reference": "72f7834daeee3ff8318badbae7a545112318ed37"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-CMS/about/zipball/72f7834daeee3ff8318badbae7a545112318ed37",
-                "reference": "72f7834daeee3ff8318badbae7a545112318ed37",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/cms-core": "9.5.1"
-            },
-            "conflict": {
-                "typo3/cms": "*"
-            },
-            "replace": {
-                "about": "*",
-                "aboutmodules": "*"
-            },
-            "type": "typo3-cms-framework",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "9.5.x-dev"
-                },
-                "typo3/cms": {
-                    "Package": {
-                        "partOfFactoryDefault": true
-                    },
-                    "extension-key": "about"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "TYPO3\\CMS\\About\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "TYPO3 Core Team",
-                    "email": "typo3cms@typo3.org",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Shows info about TYPO3, installed extensions and a separate module for available modules.",
-            "homepage": "https://typo3.org",
-            "time": "2018-10-30T10:45:30+00:00"
         },
         {
             "name": "typo3/cms-adminpanel",
@@ -2950,61 +3229,6 @@
                 }
             ],
             "description": "Classes for the TYPO3 backend.",
-            "homepage": "https://typo3.org",
-            "time": "2018-10-30T10:45:30+00:00"
-        },
-        {
-            "name": "typo3/cms-belog",
-            "version": "v9.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3-CMS/belog.git",
-                "reference": "37ecf4d5973fc4379fa901bf63027c335d74d344"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-CMS/belog/zipball/37ecf4d5973fc4379fa901bf63027c335d74d344",
-                "reference": "37ecf4d5973fc4379fa901bf63027c335d74d344",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/cms-core": "9.5.1"
-            },
-            "conflict": {
-                "typo3/cms": "*"
-            },
-            "replace": {
-                "belog": "*"
-            },
-            "type": "typo3-cms-framework",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "9.5.x-dev"
-                },
-                "typo3/cms": {
-                    "Package": {
-                        "partOfFactoryDefault": true
-                    },
-                    "extension-key": "belog"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "TYPO3\\CMS\\Belog\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "TYPO3 Core Team",
-                    "email": "typo3cms@typo3.org",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Displays backend log, both per page and system wide. Available as the module Tools>Log (system wide overview) and Web>Info/Log (page relative overview).",
             "homepage": "https://typo3.org",
             "time": "2018-10-30T10:45:30+00:00"
         },
@@ -3401,61 +3625,6 @@
             "time": "2018-10-30T10:45:30+00:00"
         },
         {
-            "name": "typo3/cms-felogin",
-            "version": "v9.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3-CMS/felogin.git",
-                "reference": "3dc23da809660e5836ed7663ca5933cf024fc986"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-CMS/felogin/zipball/3dc23da809660e5836ed7663ca5933cf024fc986",
-                "reference": "3dc23da809660e5836ed7663ca5933cf024fc986",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/cms-core": "9.5.1"
-            },
-            "conflict": {
-                "typo3/cms": "*"
-            },
-            "replace": {
-                "felogin": "*"
-            },
-            "type": "typo3-cms-framework",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "9.5.x-dev"
-                },
-                "typo3/cms": {
-                    "Package": {
-                        "partOfFactoryDefault": true
-                    },
-                    "extension-key": "felogin"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "TYPO3\\CMS\\Felogin\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "TYPO3 Core Team",
-                    "email": "typo3cms@typo3.org",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A template-based plugin to log in Website Users in the Frontend",
-            "homepage": "https://typo3.org",
-            "time": "2018-10-30T10:45:30+00:00"
-        },
-        {
             "name": "typo3/cms-filelist",
             "version": "v9.5.1",
             "source": {
@@ -3509,6 +3678,53 @@
                 }
             ],
             "description": "Listing of files in the directory",
+            "homepage": "https://typo3.org",
+            "time": "2018-10-30T10:45:30+00:00"
+        },
+        {
+            "name": "typo3/cms-filemetadata",
+            "version": "v9.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/filemetadata.git",
+                "reference": "81ad569ca36733aaa2a062f716b0dc3579500c4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/filemetadata/zipball/81ad569ca36733aaa2a062f716b0dc3579500c4a",
+                "reference": "81ad569ca36733aaa2a062f716b0dc3579500c4a",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.1"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "replace": {
+                "filemetadata": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.5.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "filemetadata"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add advanced metadata to File.",
             "homepage": "https://typo3.org",
             "time": "2018-10-30T10:45:30+00:00"
         },
@@ -3745,6 +3961,61 @@
                 }
             ],
             "description": "Import and Export of records from TYPO3 in a custom serialized format (.T3D) for data exchange with other TYPO3 systems.",
+            "homepage": "https://typo3.org",
+            "time": "2018-10-30T10:45:30+00:00"
+        },
+        {
+            "name": "typo3/cms-indexed-search",
+            "version": "v9.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/indexed_search.git",
+                "reference": "6ef6f7106e3fb32e6fb0848d54e09ee590214ccd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/indexed_search/zipball/6ef6f7106e3fb32e6fb0848d54e09ee590214ccd",
+                "reference": "6ef6f7106e3fb32e6fb0848d54e09ee590214ccd",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.1"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "replace": {
+                "indexed_search": "*"
+            },
+            "suggest": {
+                "typo3/cms-scheduler": "For garbage collection of search statistics"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.5.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "indexed_search"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\IndexedSearch\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Indexed Search Engine for TYPO3 pages, PDF-files, Word-files, HTML and text files. Provides a backend module for statistics of the indexer and a frontend plugin. Documentation can be found in the extension \"doc_indexed_search\".",
             "homepage": "https://typo3.org",
             "time": "2018-10-30T10:45:30+00:00"
         },
