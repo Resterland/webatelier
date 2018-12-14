@@ -4,82 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ed9ddce594444f0783f2cb7bea9e7ab",
+    "content-hash": "d991cd9284309714ea8a84e5076286e7",
     "packages": [
-        {
-            "name": "bk2k/bootstrap-package",
-            "version": "10.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/benjaminkott/bootstrap_package.git",
-                "reference": "f523e4a60457660581fcb0b8965f5a0db3a3f3b9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/benjaminkott/bootstrap_package/zipball/f523e4a60457660581fcb0b8965f5a0db3a3f3b9",
-                "reference": "f523e4a60457660581fcb0b8965f5a0db3a3f3b9",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-libxml": "*",
-                "ext-simplexml": "*",
-                "php": ">=7.0.0",
-                "typo3/cms-backend": "^8.7.0 || ^9.0",
-                "typo3/cms-core": "^8.7.0 || ^9.0",
-                "typo3/cms-extbase": "^8.7.0 || ^9.0",
-                "typo3/cms-extensionmanager": "^8.7.0 || ^9.0",
-                "typo3/cms-fluid": "^8.7.0 || ^9.0",
-                "typo3/cms-frontend": "^8.7.0 || ^9.0",
-                "typo3/cms-install": "^8.7.0 || ^9.0",
-                "typo3/cms-rte-ckeditor": "^8.7.0 || ^9.0"
-            },
-            "replace": {
-                "bootstrap_package": "self.version",
-                "typo3-ter/bootstrap-package": "self.version"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.3.1",
-                "typo3/testing-framework": "^1.2 || ^4.9"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
-                    "web-dir": ".build/web"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "BK2K\\BootstrapPackage\\": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Benjamin Kott",
-                    "email": "info@bk2k.info",
-                    "homepage": "http://www.bk2k.info/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Bootstrap Package delivers a full configured frontend theme for TYPO3, based on the Bootstrap CSS Framework.",
-            "homepage": "https://github.com/benjaminkott/bootstrap_package",
-            "keywords": [
-                "TYPO3 CMS",
-                "bootstrap",
-                "frontend",
-                "introduction",
-                "responsive",
-                "sitepackage",
-                "theme",
-                "web"
-            ],
-            "time": "2018-12-05T20:50:11+00:00"
-        },
         {
             "name": "causal/image_autoresize",
             "version": "1.9.1",
@@ -1950,62 +1876,6 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2016-02-11T07:05:27+00:00"
-        },
-        {
-            "name": "resterland/resterland",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Resterland/resterland.git",
-                "reference": "bac06ff60c8381f1f657d44bd18fdb3e03dbb408"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Resterland/resterland/zipball/bac06ff60c8381f1f657d44bd18fdb3e03dbb408",
-                "reference": "bac06ff60c8381f1f657d44bd18fdb3e03dbb408",
-                "shasum": ""
-            },
-            "require": {
-                "bk2k/bootstrap-package": "^10.0",
-                "typo3/minimal": "^9.5"
-            },
-            "replace": {
-                "resterland": "self.version",
-                "typo3-ter/resterland": "self.version"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "typo3/testing-framework": "^4.11"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "root-dir": "private",
-                    "web-dir": "public"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Resterland\\Resterland\\": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Roland Fuhrer",
-                    "email": "roland@resterland.ch",
-                    "homepage": "https://resterland.ch",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Tweaks the extension bootstrap-package of Bajamin Kott with some Resterland goodies.",
-            "keywords": [
-                "TYPO3 CMS"
-            ],
-            "time": "2018-12-02T14:56:36+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
