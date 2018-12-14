@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6da8879560773ca96c3feabcba46dd7e",
+    "content-hash": "2ed9ddce594444f0783f2cb7bea9e7ab",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -2006,62 +2006,6 @@
                 "TYPO3 CMS"
             ],
             "time": "2018-12-02T14:56:36+00:00"
-        },
-        {
-            "name": "resterland/rlkickstart",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Resterland/rlkickstart.git",
-                "reference": "974137836733486814cc1899e59a6b430d8102e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Resterland/rlkickstart/zipball/974137836733486814cc1899e59a6b430d8102e8",
-                "reference": "974137836733486814cc1899e59a6b430d8102e8",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/cms-impexp": "^9.5",
-                "typo3/minimal": "^9.5"
-            },
-            "replace": {
-                "rlkickstart": "self.version",
-                "typo3-ter/rlkickstart": "self.version"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "typo3/testing-framework": "^4.11"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "root-dir": "private",
-                    "web-dir": "public"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Resterland\\Rlkickstart\\": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Roland Fuhrer",
-                    "email": "roland@resterland.ch",
-                    "homepage": "https://resterland.ch",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Setting up a basic page tree for starting new web projects, multilingual. Default language is set to German. Additional languages = en, id, fr",
-            "keywords": [
-                "TYPO3 CMS"
-            ],
-            "time": "2018-12-02T14:57:31+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
