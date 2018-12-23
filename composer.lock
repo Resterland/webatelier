@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d991cd9284309714ea8a84e5076286e7",
+    "content-hash": "a49c8f970be0a75f5a2e164d1e3ae86b",
     "packages": [
         {
             "name": "causal/image_autoresize",
@@ -1126,16 +1126,16 @@
         },
         {
             "name": "helhum/typo3-composer-setup",
-            "version": "v0.5.3",
+            "version": "v0.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helhum/typo3-composer-setup.git",
-                "reference": "cf13489af8af80203814a1b79840e218b2e85b53"
+                "reference": "d8a7db5fc160bd652aae2837b324b26f7b5ed6d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helhum/typo3-composer-setup/zipball/cf13489af8af80203814a1b79840e218b2e85b53",
-                "reference": "cf13489af8af80203814a1b79840e218b2e85b53",
+                "url": "https://api.github.com/repos/helhum/typo3-composer-setup/zipball/d8a7db5fc160bd652aae2837b324b26f7b5ed6d4",
+                "reference": "d8a7db5fc160bd652aae2837b324b26f7b5ed6d4",
                 "shasum": ""
             },
             "require": {
@@ -1144,7 +1144,7 @@
             },
             "require-dev": {
                 "typo3-console/php-server-command": "^0.1.0",
-                "typo3/cms-core": "dev-TYPO3_8-7 as 8.7.9"
+                "typo3/cms-core": "^8.7.10 || ^9.5.2"
             },
             "suggest": {
                 "helhum/typo3-console": "TYPO3 Console is highly recommended for any TYPO3 composer setup.",
@@ -1156,11 +1156,7 @@
                     "dev-master": "1.x-dev"
                 },
                 "typo3/cms": {
-                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
                     "web-dir": "public"
-                },
-                "helhum/typo3-console": {
-                    "install-extension-dummy": "0"
                 }
             },
             "autoload": {
@@ -1181,7 +1177,7 @@
                 }
             ],
             "description": "Set up required entry points for TYPO3 web directory",
-            "time": "2018-06-26T12:47:04+00:00"
+            "time": "2018-12-16T11:45:46+00:00"
         },
         {
             "name": "helhum/typo3-console",
@@ -1336,39 +1332,36 @@
         },
         {
             "name": "helhum/typo3-secure-web",
-            "version": "v0.2.7",
+            "version": "v0.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helhum/typo3-secure-web.git",
-                "reference": "79c916450a4c3ad19341fa6c8df5539a59179ad0"
+                "reference": "c3530fda74affbae6d5a09c62335d128a735c69c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helhum/typo3-secure-web/zipball/79c916450a4c3ad19341fa6c8df5539a59179ad0",
-                "reference": "79c916450a4c3ad19341fa6c8df5539a59179ad0",
+                "url": "https://api.github.com/repos/helhum/typo3-secure-web/zipball/c3530fda74affbae6d5a09c62335d128a735c69c",
+                "reference": "c3530fda74affbae6d5a09c62335d128a735c69c",
                 "shasum": ""
             },
             "require": {
-                "helhum/typo3-composer-setup": "^0.5.0",
+                "helhum/typo3-composer-setup": "^0.5.4",
                 "typo3/cms-composer-installers": "^1.4 || ^2.0"
             },
             "conflict": {
-                "typo3/cms": "<8.7.8",
-                "typo3/cms-core": "<8.7.8"
+                "helhum/typo3-composer-setup": "<0.5.4",
+                "typo3/cms": "<8.7.10",
+                "typo3/cms-core": "<8.7.10"
             },
             "require-dev": {
                 "typo3-console/php-server-command": "^0.1.0",
-                "typo3/cms": "dev-TYPO3_8-7 as 8.7.8"
+                "typo3/cms-core": "^8.7.10 || ^9.5.2"
             },
             "type": "library",
             "extra": {
                 "typo3/cms": {
-                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
-                    "root-dir": "typo3",
+                    "root-dir": "private",
                     "web-dir": "public"
-                },
-                "helhum/typo3-console": {
-                    "install-extension-dummy": "0"
                 }
             },
             "autoload": {
@@ -1389,7 +1382,7 @@
                 }
             ],
             "description": "Set up secure TYPO3 web directory containing only public assets",
-            "time": "2017-12-31T14:48:15+00:00"
+            "time": "2018-12-16T12:14:08+00:00"
         },
         {
             "name": "mso/idna-convert",
@@ -3953,6 +3946,62 @@
                 }
             ],
             "description": "The Install Tool mounted as the module Tools>Install in TYPO3.",
+            "homepage": "https://typo3.org",
+            "time": "2018-12-14T07:28:48+00:00"
+        },
+        {
+            "name": "typo3/cms-linkvalidator",
+            "version": "v9.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/linkvalidator.git",
+                "reference": "1f13e0f065e7e0ce2b010e7b936039ec7ed9d8ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/linkvalidator/zipball/1f13e0f065e7e0ce2b010e7b936039ec7ed9d8ed",
+                "reference": "1f13e0f065e7e0ce2b010e7b936039ec7ed9d8ed",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.3",
+                "typo3/cms-info": "9.5.3"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "replace": {
+                "linkvalidator": "*"
+            },
+            "suggest": {
+                "typo3/cms-scheduler": "Regular checks of links"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.5.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "linkvalidator"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Linkvalidator\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Link Validator checks the links in your website for validity. It can validate all kinds of links: internal, external and file links. Scheduler is supported to run Link Validator via Cron including the option to send status mails, if broken links were detected.",
             "homepage": "https://typo3.org",
             "time": "2018-12-14T07:28:48+00:00"
         },
