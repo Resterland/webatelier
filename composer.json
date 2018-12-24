@@ -42,8 +42,9 @@
 		"typo3/cms-indexed-search": "^9.5",
 		"typo3/cms-seo": "^9.5",
 		"typo3/cms-lowlevel": "^9.5",
-		"causal/image_autoresize": "^1.9",
-		"typo3/cms-linkvalidator": "^9.5"
+		"typo3/cms-linkvalidator": "^9.5",
+		"typo3/cms-felogin": "^9.5",
+		"causal/image_autoresize": "^1.9"
 	},
 	"extra": {
 		"typo3/cms": {
