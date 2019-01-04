@@ -45,12 +45,11 @@
 		"typo3/cms-linkvalidator": "^9.5",
 		"typo3/cms-felogin": "^9.5",
 		"typo3/cms-belog": "^9.5",
-		"causal/image_autoresize": "^1.9"
+		"causal/image_autoresize": ">=1.9 <2.0.0"
 	},
 	"extra": {
 		"typo3/cms": {
-			"root-dir": "private",
-			"web-dir": "public"
+			"root-dir": "private"
 		}
 	},
 	"config": {
