@@ -55,7 +55,8 @@
 	"config": {
 		"platform": {
 			"php": "7.2"
-		}
+		},
+		"optimize-autoloader": true
 	},
 	"scripts":{
 		"typo3-cms-scripts": [
