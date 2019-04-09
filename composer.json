@@ -24,6 +24,7 @@
 	"require": {
 		"helhum/typo3-secure-web": "^0.2",
 		"helhum/typo3-console": "^5.6",
+		"helhum/dotenv-connector": "^2.1@dev",
 		"typo3/cms-scheduler": "^9.5",
 		"typo3/cms-adminpanel": "^9.5",
 		"typo3/cms-beuser": "^9.5",
