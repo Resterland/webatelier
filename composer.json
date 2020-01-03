@@ -27,8 +27,6 @@
 		}
 	},
 	"require": {
-		"causal/image_autoresize": ">=1.9 <2.0.0",
-		"helhum/typo3-config-handling": "^1.0@beta",
 		"helhum/typo3-console": "^5.7",
 		"helhum/typo3-secure-web": "^0.2",
 		"roave/security-advisories": "dev-master",
@@ -53,12 +51,12 @@
 		"typo3/cms-sys-note": "^9.5 || ^10.1",
 		"typo3/cms-t3editor": "^9.5 || ^10.1",
 		"typo3/cms-tstemplate": "^9.5 || ^10.1",
-		"typo3/cms-viewpage": "^9.5 || ^10.1"
+		"typo3/cms-viewpage": "^9.5 || ^10.1",
+		"causal/image_autoresize": ">=1.9 <2.0.0"
 	},
 	"require-dev": {
 		"helhum/dotenv-connector": "^2.0",
 		"typo3-console/composer-typo3-auto-install": "^0.3",
-		"typo3-console/php-server-command": "^0.2",
 		"friendsofphp/php-cs-fixer": "^2.0",
 		"typo3/testing-framework": "^4.11"
 	},
