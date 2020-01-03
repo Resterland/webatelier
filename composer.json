@@ -66,12 +66,6 @@
 		"typo3/cms": {
 			"root-dir": "private",
 			"web-dir": "public"
-		},
-		"helhum/typo3-config-handling": {
-			"settings": "config/settings.yaml",
-			"dev-settings": "config/dev.settings.yaml",
-			"override-settings": "config/override.settings.yaml",
-			"install-steps": "config/setup/install.steps.yaml"
 		}
 	}
 }
