@@ -57,6 +57,8 @@
 	},
 	"require-dev": {
 		"helhum/dotenv-connector": "^2.0",
+		"typo3-console/composer-typo3-auto-install": "^0.3",
+		"typo3-console/php-server-command": "^0.2",
 		"friendsofphp/php-cs-fixer": "^2.0",
 		"typo3/testing-framework": "^4.11"
 	},
