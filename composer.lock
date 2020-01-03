@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3d12035223e46746fe053d539e82909",
+    "content-hash": "104f5dc4f286d0eb7330d0b17b09e451",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -895,6 +895,68 @@
             ],
             "description": "Set up required entry points for TYPO3 web directory",
             "time": "2019-12-11T13:21:23+00:00"
+        },
+        {
+            "name": "helhum/typo3-config-handling",
+            "version": "v1.0.0-BETA6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helhum/typo3-config-handling.git",
+                "reference": "3b8b4f8eb7b7b0ece7b20c5b79c7994d6056ba29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helhum/typo3-config-handling/zipball/3b8b4f8eb7b7b0ece7b20c5b79c7994d6056ba29",
+                "reference": "3b8b4f8eb7b7b0ece7b20c5b79c7994d6056ba29",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "helhum/config-loader": ">=0.9 <0.13",
+                "helhum/typo3-console": "^5.7",
+                "php": "^7.2",
+                "symfony/console": "^4.0",
+                "symfony/yaml": "^4.0",
+                "typo3/cms-composer-installers": "^2.0",
+                "typo3/cms-core": "~9.5.0"
+            },
+            "conflict": {
+                "typo3-console/composer-auto-commands": "< 0.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.6",
+                "jakub-onderka/php-parallel-lint": "^1.0",
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^6.0"
+            },
+            "suggest": {
+                "defuse/php-encryption": "For having the encrypt/decrypt feature of settings",
+                "typo3/cms-install": "If you want to update distribution configuration with Extension Manager or Install Tool UI"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "typo3/cms": {
+                    "app-dir": ".Build",
+                    "web-dir": ".Build/public"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Helhum\\TYPO3\\ConfigHandling\\": "src/"
+                },
+                "files": [
+                    "res/php/autoload-include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Simple but powerful configuration handling for TYPO3 CMS",
+            "time": "2019-09-09T18:40:49+00:00"
         },
         {
             "name": "helhum/typo3-console",
@@ -6948,6 +7010,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "helhum/typo3-config-handling": 10,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

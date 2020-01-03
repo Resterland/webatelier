@@ -27,32 +27,33 @@
 		}
 	},
 	"require": {
+		"causal/image_autoresize": ">=1.9 <2.0.0",
+		"helhum/typo3-config-handling": "^1.0@beta",
 		"helhum/typo3-console": "^5.7",
 		"helhum/typo3-secure-web": "^0.2",
 		"roave/security-advisories": "dev-master",
-		"typo3/cms-core": "^9.5 || ^10.1",
-		"typo3/cms-scheduler": "^9.5 || ^10.1",
 		"typo3/cms-adminpanel": "^9.5 || ^10.1",
+		"typo3/cms-belog": "^9.5 || ^10.1",
 		"typo3/cms-beuser": "^9.5 || ^10.1",
+		"typo3/cms-core": "^9.5 || ^10.1",
+		"typo3/cms-felogin": "^9.5 || ^10.1",
+		"typo3/cms-filemetadata": "^9.5 || ^10.1",
 		"typo3/cms-form": "^9.5 || ^10.1",
 		"typo3/cms-impexp": "^9.5 || ^10.1",
+		"typo3/cms-indexed-search": "^9.5 || ^10.1",
+		"typo3/cms-info": "^9.5 || ^10.1",
+		"typo3/cms-linkvalidator": "^9.5 || ^10.1",
+		"typo3/cms-lowlevel": "^9.5 || ^10.1",
 		"typo3/cms-redirects": "^9.5 || ^10.1",
 		"typo3/cms-reports": "^9.5 || ^10.1",
+		"typo3/cms-rte-ckeditor": "^9.5 || ^10.1",
+		"typo3/cms-scheduler": "^9.5 || ^10.1",
+		"typo3/cms-seo": "^9.5 || ^10.1",
 		"typo3/cms-setup": "^9.5 || ^10.1",
 		"typo3/cms-sys-note": "^9.5 || ^10.1",
 		"typo3/cms-t3editor": "^9.5 || ^10.1",
 		"typo3/cms-tstemplate": "^9.5 || ^10.1",
-		"typo3/cms-viewpage": "^9.5 || ^10.1",
-		"typo3/cms-info": "^9.5 || ^10.1",
-		"typo3/cms-rte-ckeditor": "^9.5 || ^10.1",
-		"typo3/cms-filemetadata": "^9.5 || ^10.1",
-		"typo3/cms-indexed-search": "^9.5 || ^10.1",
-		"typo3/cms-seo": "^9.5 || ^10.1",
-		"typo3/cms-lowlevel": "^9.5 || ^10.1",
-		"typo3/cms-linkvalidator": "^9.5 || ^10.1",
-		"typo3/cms-felogin": "^9.5 || ^10.1",
-		"typo3/cms-belog": "^9.5 || ^10.1",
-		"causal/image_autoresize": ">=1.9 <2.0.0"
+		"typo3/cms-viewpage": "^9.5 || ^10.1"
 	},
 	"require-dev": {
 		"helhum/dotenv-connector": "^2.0",
@@ -63,6 +64,12 @@
 		"typo3/cms": {
 			"root-dir": "private",
 			"web-dir": "public"
+		},
+		"helhum/typo3-config-handling": {
+			"settings": "config/settings.yaml",
+			"dev-settings": "config/dev.settings.yaml",
+			"override-settings": "config/override.settings.yaml",
+			"install-steps": "config/setup/install.steps.yaml"
 		}
 	}
 }
