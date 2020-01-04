@@ -13,6 +13,18 @@
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"require": {
-		"typo3/cms-core": "^9.5 || ^10.1"
+		"typo3/cms-core": "^9",
+		"helhum/typo3-console": "^5.8",
+		"helhum/typo3-secure-web": "^0.2.9"
+	},
+	"replace": {
+		"resterland/webatelier": "self.version",
+		"typo3-ter/webatelier": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"web-dir": "public",
+			"root-dir": "private"
+		}
 	}
 }
