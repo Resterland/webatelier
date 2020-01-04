@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5cd21f503fe2bac65cb2099d6291e1e",
+    "content-hash": "88950eb3e6fc7a1ba5bd283c93a190e9",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -6836,50 +6836,6 @@
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "time": "2019-06-13T22:48:21+00:00"
-        },
-        {
-            "name": "typo3-console/composer-typo3-auto-install",
-            "version": "v0.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3-Console/composer-typo3-auto-install.git",
-                "reference": "3a7b6403ab1d66de90563c97d85a3345ebab9bb1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-Console/composer-typo3-auto-install/zipball/3a7b6403ab1d66de90563c97d85a3345ebab9bb1",
-                "reference": "3a7b6403ab1d66de90563c97d85a3345ebab9bb1",
-                "shasum": ""
-            },
-            "require": {
-                "helhum/typo3-composer-setup": "^0.5.1",
-                "helhum/typo3-console": "^5.4",
-                "php": "^7",
-                "typo3/cms-composer-installers": "^1.4.2 || ^2.0"
-            },
-            "conflict": {
-                "typo3-console/composer-auto-commands": "< 0.3.0"
-            },
-            "suggest": {
-                "helhum/dotenv-connector": "To be able to easily expose env vars from a .env file"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Typo3Console\\Typo3AutoInstall\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Setup TYPO3 on 'composer install'",
-            "time": "2019-08-16T14:24:39+00:00"
         },
         {
             "name": "typo3/testing-framework",
