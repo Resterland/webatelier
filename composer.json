@@ -13,9 +13,14 @@
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"require": {
-		"typo3/cms-core": "^9",
+		"typo3/cms-core": "^9 || ^10",
 		"helhum/typo3-console": "^5.8",
 		"helhum/typo3-secure-web": "^0.2.9"
+	}
+	,
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"helhum/dotenv-connector": "^2.1"
 	},
 	"replace": {
 		"resterland/webatelier": "self.version",
