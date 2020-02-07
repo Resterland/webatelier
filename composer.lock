@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72b260ef8f436f61d64e410765959bd4",
+    "content-hash": "e7cf39e8a77b927e6ad3288e30340362",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -3238,6 +3238,47 @@
             "time": "2019-12-17T14:17:37+00:00"
         },
         {
+            "name": "typo3/cms-filemetadata",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/filemetadata.git",
+                "reference": "1abb6cf35f4635786fd01ccb41296a47e4ab070e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/filemetadata/zipball/1abb6cf35f4635786fd01ccb41296a47e4ab070e",
+                "reference": "1abb6cf35f4635786fd01ccb41296a47e4ab070e",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "filemetadata"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add advanced metadata to File.",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
             "name": "typo3/cms-fluid",
             "version": "v9.5.13",
             "source": {
@@ -3348,6 +3389,61 @@
             "time": "2019-12-17T14:17:37+00:00"
         },
         {
+            "name": "typo3/cms-form",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/form.git",
+                "reference": "c68d10b4ac024fb821b38c8af472522ec47160f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/form/zipball/c68d10b4ac024fb821b38c8af472522ec47160f7",
+                "reference": "c68d10b4ac024fb821b38c8af472522ec47160f7",
+                "shasum": ""
+            },
+            "require": {
+                "psr/http-message": "~1.0",
+                "symfony/expression-language": "^4.1",
+                "typo3/cms-core": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "suggest": {
+                "typo3/cms-filelist": "Add context menu item for form files",
+                "typo3/cms-impexp": "Register imported form files"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "form"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Form\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Form Library, Plugin and Editor",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
             "name": "typo3/cms-frontend",
             "version": "v9.5.13",
             "source": {
@@ -3447,6 +3543,55 @@
                 }
             ],
             "description": "Import and Export of records from TYPO3 in a custom serialized format (.T3D) for data exchange with other TYPO3 systems.",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
+            "name": "typo3/cms-indexed-search",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/indexed_search.git",
+                "reference": "66660c06f8f181758776fbd45f0d88a7b4f73449"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/indexed_search/zipball/66660c06f8f181758776fbd45f0d88a7b4f73449",
+                "reference": "66660c06f8f181758776fbd45f0d88a7b4f73449",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "suggest": {
+                "typo3/cms-scheduler": "For garbage collection of search statistics"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "indexed_search"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\IndexedSearch\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Indexed Search Engine for TYPO3 pages, PDF-files, Word-files, HTML and text files. Provides a backend module for statistics of the indexer and a frontend plugin. Documentation can be found in the extension \"doc_indexed_search\".",
             "homepage": "https://typo3.org",
             "time": "2019-12-17T14:17:37+00:00"
         },
@@ -3564,6 +3709,56 @@
             "time": "2019-12-17T14:17:37+00:00"
         },
         {
+            "name": "typo3/cms-linkvalidator",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/linkvalidator.git",
+                "reference": "0059647adfd2a3e6be8617aedea78c7c1f5eadbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/linkvalidator/zipball/0059647adfd2a3e6be8617aedea78c7c1f5eadbc",
+                "reference": "0059647adfd2a3e6be8617aedea78c7c1f5eadbc",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.13",
+                "typo3/cms-info": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "suggest": {
+                "typo3/cms-scheduler": "Regular checks of links"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "linkvalidator"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Linkvalidator\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Link Validator checks the links in your website for validity. It can validate all kinds of links: internal, external and file links. Scheduler is supported to run Link Validator via Cron including the option to send status mails, if broken links were detected.",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
             "name": "typo3/cms-lowlevel",
             "version": "v9.5.13",
             "source": {
@@ -3670,6 +3865,58 @@
                 }
             ],
             "description": "List of database-records",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
+            "name": "typo3/cms-redirects",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/redirects.git",
+                "reference": "5feaeed6164d4828f96f1fc191b4ed349a039353"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/redirects/zipball/5feaeed6164d4828f96f1fc191b4ed349a039353",
+                "reference": "5feaeed6164d4828f96f1fc191b4ed349a039353",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-backend": "9.5.13",
+                "typo3/cms-core": "9.5.13",
+                "typo3fluid/fluid": "^2.6.8"
+            },
+            "conflict": {
+                "typo3/cms": "*",
+                "typo3fluid/fluid": "2.6.4 || 2.6.5"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "redirects",
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Redirects\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Custom redirects in TYPO3.",
             "homepage": "https://typo3.org",
             "time": "2019-12-17T14:17:37+00:00"
         },
@@ -3829,6 +4076,57 @@
             "time": "2019-12-17T14:17:37+00:00"
         },
         {
+            "name": "typo3/cms-seo",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/seo.git",
+                "reference": "d79ff9e98f5526508a7327223bcd6209caa3e58c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/seo/zipball/d79ff9e98f5526508a7327223bcd6209caa3e58c",
+                "reference": "d79ff9e98f5526508a7327223bcd6209caa3e58c",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.13",
+                "typo3/cms-extbase": "9.5.13",
+                "typo3/cms-frontend": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "seo",
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Seo\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SEO features for TYPO3.",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
             "name": "typo3/cms-setup",
             "version": "v9.5.13",
             "source": {
@@ -3874,6 +4172,109 @@
                 }
             ],
             "description": "Allows users to edit a limited set of options for their user profile, eg. preferred language and their name and email address.",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
+            "name": "typo3/cms-sys-note",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/sys_note.git",
+                "reference": "824cd740b1f027d7cc1664f3c411747e59c26104"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/sys_note/zipball/824cd740b1f027d7cc1664f3c411747e59c26104",
+                "reference": "824cd740b1f027d7cc1664f3c411747e59c26104",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "sys_note"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\SysNote\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Records with messages which can be placed on any page and contain instructions or other information related to a page or section.",
+            "homepage": "https://typo3.org",
+            "time": "2019-12-17T14:17:37+00:00"
+        },
+        {
+            "name": "typo3/cms-t3editor",
+            "version": "v9.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/t3editor.git",
+                "reference": "af9b2e6a3fc6c91691069ad2e7f93fc5f464edae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/t3editor/zipball/af9b2e6a3fc6c91691069ad2e7f93fc5f464edae",
+                "reference": "af9b2e6a3fc6c91691069ad2e7f93fc5f464edae",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.13"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "t3editor"
+                },
+                "typo3/class-alias-loader": {
+                    "class-alias-maps": [
+                        "Migrations/Code/ClassAliasMap.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\T3editor\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JavaScript-driven editor with syntax highlighting and codecompletion. Based on CodeMirror.",
             "homepage": "https://typo3.org",
             "time": "2019-12-17T14:17:37+00:00"
         },
