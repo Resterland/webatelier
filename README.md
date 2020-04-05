@@ -27,7 +27,7 @@ This TYPO3 setup only works with `typo3/cms-core` `^9.5` or higher.
 
         `$ cd YourNewProjectFolder`
     - As you can see now, the base structure of your new project is already in place.
-    - One part of the installation above, fas fetching `helhum/typo3-console`. This comes in handy with the next step of the installation.
+    - One part of the installation process above, was fetching `helhum/typo3-console`. This extension comes in handy with the next step of the installation.
     - Still on the command line insert following:
 
         `$ vendor/bin/typo3cms install:setup`
