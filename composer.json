@@ -13,7 +13,6 @@
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"require": {
-		"helhum/typo3-config-handling": "^1.0@beta",
 		"helhum/typo3-console": "^5.8",
 		"helhum/typo3-secure-web": "^0.2.9",
 		"typo3/cms-core": "^9 || ^10",
@@ -45,7 +44,6 @@
 		"friendsofphp/php-cs-fixer": "^2.16",
 		"helhum/dotenv-connector": "^2.1",
 		"roave/security-advisories": "dev-master",
-		"typo3/cms-styleguide": "^9 || ^10",
 		"typo3/testing-framework": "^3 || ^4"
 	},
 	"replace": {
