@@ -35,8 +35,7 @@
 		"typo3/cms-rte-ckeditor": "^9 || ^10",
 		"typo3/cms-filemetadata": "^9.5 || ^10",
 		"typo3/cms-indexed-search": "^9.5 || ^10",
-		"typo3/cms-seo": "^9.5 || ^10",
-		"typo3/cms-fluid-styled-content": "^9 || ^10"
+		"typo3/cms-seo": "^9.5 || ^10"
 	}
 	,
 	"require-dev": {
