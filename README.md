@@ -4,7 +4,7 @@ This is my composer package to create a new TYPO3 project.
 
 It is based on the superb composer package `helhum/typo3-secure-web` by Helmut Hummel.
 
-This TYPO3 setup only works with `typo3/cms-core` `^9.5` or higher.
+This TYPO3 setup only works with `typo3/cms-core` `^10.4` or higher.
 
 ## How it works
 1. Create new TYPO3-Project:
@@ -43,7 +43,7 @@ Although the setup with the `helhum/typo3-secure-web` is already quite secure, a
 
 For this approach you need to install `helhum/typo3-config-handling` another outstanding extension written by Helmut Hummel:
 
-`$ composer require helhum/typo3-config-handling:^1.0@beta`
+`$ composer require helhum/typo3-config-handling:^1.0@rc`
 
 Why @beta? Because the latest stable release `0.7.3` is not compatible with TYPO3 ^9 and higher.
 
