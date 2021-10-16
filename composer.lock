@@ -6948,16 +6948,16 @@
         },
         {
             "name": "typo3/html-sanitizer",
-            "version": "v2.0.11",
+            "version": "v2.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/html-sanitizer.git",
-                "reference": "2d6f51881a4a2f69541102cb5ff021ad8ea8fdd4"
+                "reference": "836ee827f1f9f0569eab3c89459a532d57fe1fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/html-sanitizer/zipball/2d6f51881a4a2f69541102cb5ff021ad8ea8fdd4",
-                "reference": "2d6f51881a4a2f69541102cb5ff021ad8ea8fdd4",
+                "url": "https://api.github.com/repos/TYPO3/html-sanitizer/zipball/836ee827f1f9f0569eab3c89459a532d57fe1fbb",
+                "reference": "836ee827f1f9f0569eab3c89459a532d57fe1fbb",
                 "shasum": ""
             },
             "require": {
@@ -6993,9 +6993,9 @@
             "description": "HTML sanitizer aiming to provide XSS-safe markup based on explicitly allowed tags, attributes and values.",
             "support": {
                 "issues": "https://github.com/TYPO3/html-sanitizer/issues",
-                "source": "https://github.com/TYPO3/html-sanitizer/tree/v2.0.11"
+                "source": "https://github.com/TYPO3/html-sanitizer/tree/v2.0.13"
             },
-            "time": "2021-09-21T07:16:35+00:00"
+            "time": "2021-10-12T15:04:17+00:00"
         },
         {
             "name": "typo3/minimal",
@@ -9295,6 +9295,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
@@ -9532,16 +9533,16 @@
         },
         {
             "name": "typo3/testing-framework",
-            "version": "6.11.3",
+            "version": "6.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/testing-framework.git",
-                "reference": "4d42bb47fa55008aa88eb9c88e295ba0247bf439"
+                "reference": "43f228567a5b52afcb44a9246e1f89e101df26cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/testing-framework/zipball/4d42bb47fa55008aa88eb9c88e295ba0247bf439",
-                "reference": "4d42bb47fa55008aa88eb9c88e295ba0247bf439",
+                "url": "https://api.github.com/repos/TYPO3/testing-framework/zipball/43f228567a5b52afcb44a9246e1f89e101df26cf",
+                "reference": "43f228567a5b52afcb44a9246e1f89e101df26cf",
                 "shasum": ""
             },
             "require": {
@@ -9594,9 +9595,9 @@
             "support": {
                 "general": "https://typo3.org/support/",
                 "issues": "https://github.com/TYPO3/testing-framework/issues",
-                "source": "https://github.com/TYPO3/testing-framework/tree/6.11.3"
+                "source": "https://github.com/TYPO3/testing-framework/tree/6.12.0"
             },
-            "time": "2021-10-06T14:01:16+00:00"
+            "time": "2021-10-14T20:39:51+00:00"
         }
     ],
     "aliases": [],
