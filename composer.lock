@@ -1,20 +1,20 @@
 {
-  "_readme": [
-    "This file locks the dependencies of your project to a known state",
-    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-    "This file is @generated automatically"
-  ],
-  "content-hash": "217ba9fabd5913dded351e015fbfa45c",
-  "packages": [
-    {
-      "name": "cogpowered/finediff",
-      "version": "0.3.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/cogpowered/FineDiff.git",
-        "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8"
-      },
-      "dist": {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "217ba9fabd5913dded351e015fbfa45c",
+    "packages": [
+        {
+            "name": "cogpowered/finediff",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cogpowered/FineDiff.git",
+                "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8"
+            },
+            "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/cogpowered/FineDiff/zipball/339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
                 "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
@@ -814,16 +814,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "136a635e2b4a49b9d79e9c8fee267ffb257fdba0"
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/136a635e2b4a49b9d79e9c8fee267ffb257fdba0",
-                "reference": "136a635e2b4a49b9d79e9c8fee267ffb257fdba0",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
                 "shasum": ""
             },
             "require": {
@@ -878,7 +878,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/1.5.0"
+                "source": "https://github.com/guzzle/promises/tree/1.5.1"
             },
             "funding": [
                 {
@@ -894,7 +894,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-07T13:05:22+00:00"
+            "time": "2021-10-22T20:56:57+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -5557,85 +5557,85 @@
                     "role": "Developer"
                 }
             ],
-          "description": "TYPO3 Extension Manager",
-          "homepage": "https://typo3.org",
-          "support": {
-            "chat": "https://typo3.org/help",
-            "docs": "https://docs.typo3.org",
-            "issues": "https://forge.typo3.org",
-            "source": "https://github.com/typo3/typo3"
-          },
-          "time": "2021-09-21T08:52:27+00:00"
+            "description": "TYPO3 Extension Manager",
+            "homepage": "https://typo3.org",
+            "support": {
+                "chat": "https://typo3.org/help",
+                "docs": "https://docs.typo3.org",
+                "issues": "https://forge.typo3.org",
+                "source": "https://github.com/typo3/typo3"
+            },
+            "time": "2021-09-21T08:52:27+00:00"
         },
-    {
-      "name": "typo3/cms-felogin",
-      "version": "v10.4.21",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/TYPO3-CMS/felogin.git",
-        "reference": "6a867150730e058c2c008c75f7a15a5289ff1d16"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/TYPO3-CMS/felogin/zipball/6a867150730e058c2c008c75f7a15a5289ff1d16",
-        "reference": "6a867150730e058c2c008c75f7a15a5289ff1d16",
-        "shasum": ""
-      },
-      "require": {
-        "typo3/cms-core": "10.4.21"
-      },
-      "conflict": {
-        "typo3/cms": "*"
-      },
-      "type": "typo3-cms-framework",
-      "extra": {
-        "branch-alias": {
-          "dev-master": "10.4.x-dev"
-        },
-        "typo3/cms": {
-          "Package": {
-            "partOfFactoryDefault": true
-          },
-          "extension-key": "felogin"
-        }
-      },
-      "autoload": {
-        "psr-4": {
-          "TYPO3\\CMS\\Felogin\\": "Classes/",
-          "TYPO3\\CMS\\FrontendLogin\\": "Classes/"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "GPL-2.0-or-later"
-      ],
-      "authors": [
         {
-          "name": "TYPO3 Core Team",
-          "email": "typo3cms@typo3.org",
-          "role": "Developer"
-        }
-      ],
-      "description": "A template-based plugin to log in Website Users in the Frontend",
-      "homepage": "https://typo3.org",
-      "support": {
-        "chat": "https://typo3.org/help",
-        "docs": "https://docs.typo3.org/c/typo3/cms-felogin/master/en-us",
-        "issues": "https://forge.typo3.org",
-        "source": "https://github.com/typo3/typo3"
-      },
-      "time": "2021-09-21T08:52:27+00:00"
-    },
-    {
-      "name": "typo3/cms-filelist",
-      "version": "v10.4.21",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/TYPO3-CMS/filelist.git",
-        "reference": "b9f26cdb703ce1df3611238577a6cc71294772f2"
-      },
-      "dist": {
-        "type": "zip",
+            "name": "typo3/cms-felogin",
+            "version": "v10.4.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/felogin.git",
+                "reference": "6a867150730e058c2c008c75f7a15a5289ff1d16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/felogin/zipball/6a867150730e058c2c008c75f7a15a5289ff1d16",
+                "reference": "6a867150730e058c2c008c75f7a15a5289ff1d16",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "10.4.21"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.4.x-dev"
+                },
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "felogin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Felogin\\": "Classes/",
+                    "TYPO3\\CMS\\FrontendLogin\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A template-based plugin to log in Website Users in the Frontend",
+            "homepage": "https://typo3.org",
+            "support": {
+                "chat": "https://typo3.org/help",
+                "docs": "https://docs.typo3.org/c/typo3/cms-felogin/master/en-us",
+                "issues": "https://forge.typo3.org",
+                "source": "https://github.com/typo3/typo3"
+            },
+            "time": "2021-09-21T08:52:27+00:00"
+        },
+        {
+            "name": "typo3/cms-filelist",
+            "version": "v10.4.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/filelist.git",
+                "reference": "b9f26cdb703ce1df3611238577a6cc71294772f2"
+            },
+            "dist": {
+                "type": "zip",
                 "url": "https://api.github.com/repos/TYPO3-CMS/filelist/zipball/b9f26cdb703ce1df3611238577a6cc71294772f2",
                 "reference": "b9f26cdb703ce1df3611238577a6cc71294772f2",
                 "shasum": ""
@@ -9354,7 +9354,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
