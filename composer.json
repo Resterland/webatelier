@@ -13,7 +13,6 @@
     "license": "GPL-2.0-or-later",
     "type": "typo3-cms-extension",
     "require": {
-        "helhum/typo3-config-handling": "^1.0",
         "helhum/typo3-console": "^6 || ^7",
         "helhum/typo3-secure-web": "^0.2 || ^0.3",
         "typo3/cms-adminpanel": "^10 || ^11",
