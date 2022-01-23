@@ -65,7 +65,8 @@
             "resterland/*": true,
             "roave/security-advisories": true,
             "typo3/testing-framework": true,
-            "helhum/*": true
+            "helhum/*": true,
+            "typo3/class-alias-loader": true
         }
     }
 }
