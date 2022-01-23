@@ -59,6 +59,13 @@
     },
     "config": {
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "typo3/cms-*": true,
+            "resterland/*": true,
+            "roave/security-advisories": true,
+            "typo3/testing-framework": true,
+            "helhum/*": true
+        }
     }
 }
