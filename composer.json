@@ -14,7 +14,6 @@
     "type": "typo3-cms-extension",
     "require": {
         "helhum/typo3-console": "^6 || ^7",
-        "helhum/typo3-secure-web": "^0.2 || ^0.3",
         "typo3/cms-adminpanel": "^10 || ^11",
         "typo3/cms-belog": "^10 || ^11",
         "typo3/cms-beuser": "^10 || ^11",
