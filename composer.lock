@@ -1,20 +1,20 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "9647a4847bf7e02877b84ce9e5cd67e4",
-    "packages": [
-        {
-            "name": "bacon/bacon-qr-code",
-            "version": "2.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Bacon/BaconQrCode.git",
-                "reference": "d70c840f68657ce49094b8d91f9ee0cc07fbf66c"
-            },
-            "dist": {
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "f70cf775968f679cd89cf80ac11778b1",
+  "packages": [
+    {
+      "name": "bacon/bacon-qr-code",
+      "version": "2.0.7",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bacon/BaconQrCode.git",
+        "reference": "d70c840f68657ce49094b8d91f9ee0cc07fbf66c"
+      },
+      "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/d70c840f68657ce49094b8d91f9ee0cc07fbf66c",
                 "reference": "d70c840f68657ce49094b8d91f9ee0cc07fbf66c",
