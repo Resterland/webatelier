@@ -14,6 +14,7 @@
     "type": "typo3-cms-extension",
     "require": {
         "helhum/typo3-console": "^8",
+        "typo3/cms-composer-installers": "^4 || ^5",
         "typo3/cms-adminpanel": "^12",
         "typo3/cms-belog": "^12",
         "typo3/cms-beuser": "^12",
@@ -41,6 +42,7 @@
     }
 ,
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "typo3/testing-framework": "^6 || ^8"
     },
     "extra": {
