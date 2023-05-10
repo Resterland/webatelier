@@ -1,8 +1,6 @@
 # resterland/webatelier
 
-This is my composer package to create a new TYPO3 project.
-
-It is based on the superb composer package `helhum/typo3-secure-web` by Helmut Hummel.
+Actually this project just contains a composer.json file which is the base of many of my TYPO3 projects.
 
 This TYPO3 setup only works with `typo3/cms-core` `^11.5` or higher.
 
@@ -38,13 +36,5 @@ This TYPO3 setup only works with `typo3/cms-core` `^11.5` or higher.
         - However, a database itself you don't have to setup before. You can do this during the installation process.
         - At the set up configuration choose your site type. If you go with the default "no", then you will just have the possibility to open the backend as the frontend will give you an error. Because no site is configured, yet.
     - That's it `Successfully installed TYPO3 CMS!`
-## Increase Security
-Although the setup with the `helhum/typo3-secure-web` is already quite secure, as it separates server document root inside the `public` folder and the TYPO3 files and directories inside the `private` folder, you can increase security further (see https://github.com/helhum/typo3-secure-web for more details).
-
-For this approach you need to install `helhum/typo3-config-handling` another outstanding extension written by Helmut Hummel:
-
-`$ composer require helhum/typo3-config-handling:^1.0`
-
-(see https://github.com/helhum/typo3-config-handling for more details)
 
 That's it. Have fun!
