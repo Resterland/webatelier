@@ -61,5 +61,13 @@
             "helhum/*": true,
             "typo3/class-alias-loader": true
         }
+    },
+    "scripts": {
+        "typo3-cms-scripts": [
+            "typo3cms install:fixfolderstructure"
+        ],
+        "post-autoload-dump": [
+            "@typo3-cms-scripts"
+        ]
     }
 }
