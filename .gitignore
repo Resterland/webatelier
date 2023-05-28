@@ -131,7 +131,6 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
-/private/*
 /public/*
 /var/*
 
@@ -141,7 +140,9 @@ fabric.properties
 /.env
 /.php_cs.cache
 
-/config/override.settings.yaml
+/config
+
+/public/_assets
 !/private/typo3conf
 /private/typo3conf/*
 !/private/typo3conf/l10n
